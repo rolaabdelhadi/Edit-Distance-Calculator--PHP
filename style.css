@@ -1,0 +1,71 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+	font-family: 'Maven Pro', Georgia;
+	background-color: #f5fafa;
+	margin-top: 10px;
+}
+
+h1{
+	color: #30336b;
+}
+
+.intro-parag{
+  font-size: 0.95em;	
+}
+
+form{
+  margin-top: 37px;	
+}
+
+.row{
+	width: 60%;
+	border: 1px dashed #30336b;
+	padding: 7px;
+}
+
+input{
+	width: 30%;
+}
+
+label{
+	padding: 0;
+	font-weight: bold;
+	color: #30336b;
+}
+
+.rad-but{
+	font-weight: normal;
+	color: black;
+	width: 1%;
+	padding: 0;
+	margin-left: -10px;
+}
+
+input[name="first-str"]{
+	margin-left: 70px;
+}
+
+input[name="second-str"]{
+	margin-left: 50px;
+}
+
+input[type="radio"]{
+	margin-left: -75px;
+}
+
+.submit{	
+	width: 18%;
+	display: block;
+    text-align: center;
+    margin-left: -14px;
+	padding: 2px;
+}
+
+.result{
+	margin-left: -14px;
+    font-weight: bold;
+	color: #d9801c;
+	font-size: 1.3em;
+}
